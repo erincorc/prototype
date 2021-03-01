@@ -1,17 +1,1 @@
-.wordmark {
-    padding: 10px;
-}
 
-.navigation {
-    background: lightgrey;
-}
-.welcome {
-    text-align: center;
-    color: maroon;
-    font-size: 72px;
-}
-
-.centered{
-    margin: 0 auto;
-    width:80% /* value of your choice which suits your alignment */
-}
