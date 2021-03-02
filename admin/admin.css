@@ -5,3 +5,8 @@
 .navigation {
     background: lightgrey;
 }
+
+.buttons {
+    padding: 20px;
+    align-items: center;
+}
