@@ -14,6 +14,8 @@
 .dashboardbox {
     border: darkgray;
     border-style:solid;
+    padding: 10px;
+    border-radius: 15px;
     width: 600px;
     height: 400px;
 }
