@@ -10,3 +10,10 @@
     padding: 20px;
     align-items: center;
 }
+
+.dashboardbox {
+    border: darkgray;
+    border-style:solid;
+    width: 600px;
+    height: 400px;
+}
