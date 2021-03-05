@@ -9,7 +9,7 @@
 /* Chat containers */
 .container {
   border: 2px solid #dedede;
-  background-color: #f1f1f1;
+  background-color: #cd5c5c;
   border-radius: 5px;
   padding: 10px;
   margin: 10px 0;
@@ -18,7 +18,7 @@
 /* Darker chat container */
 .darker {
   border-color: #ccc;
-  background-color: #ddd;
+  background-color: #fafad2;
 }
 
 /* Clear floats */
@@ -47,11 +47,30 @@
 /* Style time text */
 .time-right {
   float: right;
-  color: #aaa;
+  color: #fafad2;
 }
 
 /* Style time text */
 .time-left {
   float: left;
-  color: #999;
+  color: #8b0000;
+}
+
+/* Style message inbox */
+.msg_container_base::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
 }
