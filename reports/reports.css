@@ -1,0 +1,13 @@
+.wordmark {
+    padding: 10px;
+    max-width: 50%;
+    height: auto;
+}
+
+.navigation {
+    background: lightgrey;
+}
+
+.instructions {
+    color: maroon;
+}
