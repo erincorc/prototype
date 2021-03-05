@@ -10,7 +10,7 @@
 
         <!-- Our CSS File -->
         <link rel="stylesheet" href="chat.css" />
-        
+
         <title> Team END | Buy, Sell, Donate </title>
 </head>
 
@@ -19,7 +19,7 @@
 
     <!-- WORDMARK - ADD TO EVERY PAGE -->
     <div class = 'wordmark'>
-      <img src="wordmark.png" alt="BC Wordmark" style = "max-width: 100%; height: auto;">
+      <img src="wordmark.png" alt="BC Wordmark">
   </div>
 
         <!-- NAVIGATION BAR - ADD TO EVERY PAGE-->
@@ -37,7 +37,6 @@
                           Menu
                         </a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                          <li><a class="dropdown-item" href="/index.html">Main Menu</a></li>
                           <li><a class="dropdown-item" href="#">About Us</a></li>
                           <li><a class="dropdown-item" href="#">FAQ</a></li>
                           <li><a class="dropdown-item" href="#">Contact Us</a></li>
@@ -48,14 +47,16 @@
                 </div>
               </nav>
             </div>
-        
+
         <!-- Chat -->
         <h2>Chat Messages</h2>
+        <a href="landing_page/homepage.html">Back to Main Page</a>
+
 
         <div class="container">
                 <img src="buyer.png" alt="Buyer" style="width:100%;">
-                <a href="/reports/reports.html">Report User</a>
                 <p>Hello. Hey! Is this book still available?</p>
+                <a href="report_userpage/homepage.html">Report User</a>
                 <span class="time-right">9/2/20 5:21 pm</span>
         </div>
 
@@ -68,16 +69,26 @@
         <div class="container">
                 <img src="buyer.png" alt="Buyer" style="width:100%;">
                  <p>That's a bit steep, how about $50?</p>
+                 <a href="report_userpage/homepage.html">Report User</a>
                  <span class="time-right">9/2/20 6:00 pm</span>
         </div>
 
         <div class="container darker">
-                <img src="seller.png" alt="seller" class="right" style="width:100%;">
+                <img src="buyer.png" alt="seller" class="right" style="width:100%;">
                 <p>Yeah, I can do that. I live at 2150, can you come by?</p>
                 <span class="time-left">9/2/20 6:12 pm</span>
         </div>
+
+        <div class="panel-footer">
+            <div class="input-group">
+                <input id="btn-input" type="text" class="form-control input-sm chat_input" placeholder="Write your message here..." />
+                <span class="input-group-btn">
+                <button class="btn btn-primary btn-sm" id="btn-chat">Send</button>
+                </span>
+            </div>
+        </div>
         <!-- Chat -->
-        
+
     <br>
 </body>
 </html>
