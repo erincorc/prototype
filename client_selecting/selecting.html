@@ -18,9 +18,21 @@
 <body>
 
     <!-- WORDMARK - ADD TO EVERY PAGE -->
-    <div class = 'wordmark'>
-      <img src="wordmark.png" alt="BC Wordmark">
-  </div>
+    <div class = 'topbar'>
+      <div class = 'wordmark'>
+        <img src="./assets/wordmark.png" alt="BC Wordmark">
+      </div>
+      <div class = "cart" id = "my-listings">
+        <img src="./assets/cart.png" alt="cart" id="cart-icon">
+      </div>
+      <div class = "chat">
+        <img src="./assets/chat.webp" alt="chat" id="chat-icon">
+      </div>
+      <div class = "profile" >
+        <img src="assets/profile.png" alt="profile" id="profile-icon">
+      </div>
+    </div>
+
 
         <!-- NAVIGATION BAR - ADD TO EVERY PAGE-->
         <div class = 'navigation' >
@@ -47,6 +59,41 @@
                 </div>
               </nav>
             </div>
+        
+        <div class="searchbar">
+          <input type="search" placeholder="Search by title, author, ISBN-13" id="search">
+        </div>
+
+        <div class="filter-container">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" id="Somerville">
+            <label class="form-check-label" for="Somerville">
+              Somerville, I
+            </label>
+          </div>
+  
+          <div class="form-check">
+            <input class="form-check-input" type="radio" id="Smith">
+            <label class="form-check-label" for="Smith">
+              Smith, H
+            </label>
+          </div>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" id="Somerville">
+          <label class="form-check-label" for="Somerville">
+            Somerville, I
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" id="Smith">
+          <label class="form-check-label" for="Smith">
+            Smith, H
+          </label>
+        </div>
+
     <br>
 
 </body>

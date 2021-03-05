@@ -1,7 +1,36 @@
 .wordmark {
     padding: 10px;
+    margin-right: 30%;
 }
 
 .navigation {
     background: lightgrey;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile-icon {
+    height: 50px;
+    width: 50px;
+}
+
+#cart-icon {
+    height: 50px;
+    width: 50px;
+}
+
+#chat-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.searchbar{
+    margin: 10px;
+}
+
+#search{
+    width: 500px;
 }
