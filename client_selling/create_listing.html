@@ -51,7 +51,7 @@
     <br>
 
     <div class = 'row' style = "color: maroon">
-        <h2>Create an Account:</h2>
+        <h2>Create a Listing:</h2>
     </div>
 
     <br>
@@ -59,81 +59,57 @@
     <div class = "container centered">
     <form>
         <div class = "form-group col-lg-4">
-            <label for="firstname">First Name: </label>
-            <input type="firstname" class="form-control" id="firstName1" aria-describedby="firstnamelHelp" placeholder="Enter first name">
+            <label for="booktitle">Book Title: </label>
+            <input type="booktitle" class="form-control" id="booktitle1" aria-describedby="booktitleHelp" placeholder="Enter the title of the book">
         </div>
 
         <div class = "form-group col-lg-4">
-            <label for="lastname">Last Name: </label>
-            <input type="lastname" class="form-control" id="lastName1" aria-describedby="lastnamelHelp" placeholder="Enter last name">
+            <label for="authorname">Author(s) Name: </label>
+            <input type="authorname" class="form-control" id="authorname1" aria-describedby="authornameHelp" placeholder="Enter the name of the Author or Authors">
         </div>
 
         <div class = "form-group col-lg-4">
-            <label for="uniemail">University Email: </label>
-            <input type="uniemail" class="form-control" id="uniEmail1" aria-describedby="uniEmailHelp" placeholder="Enter university email">
+            <label for="subject">Subject: </label>
+            <input type="subject" class="form-control" id="subject1" aria-describedby="subjectHelp" placeholder="Enter the subject of the book">
         </div>
 
         <div class = "form-group col-lg-4">
-            <label for = 'confirmemail'> Confirm University Email: </label>
-            <input type="confirmemail" class = 'form-control' id = 'confirmEmail1' aria-describedby="confirmEmailHelp" placeholder="Confirm email">
+            <label for = 'course'> Course: </label>
+            <input type="course" class = 'form-control' id = 'course1' aria-describedby="courseHelp" placeholder="Enter the course that the book is used for">
         </div>
 
         <div class = "form-group col-lg-4">
-            <label for="password"> Password: </label>
-            <input type="password" class="form-control" id="password1" aria-describedby="passwordHelp" placeholder="Enter password">
+            <label for="edition"> Edition: </label>
+            <input type="edition" class="form-control" id="edition1" aria-describedby="editionHelp" placeholder="Enter the books' edition number">
         </div>
 
         <div class = "form-group col-lg-4">
-            <label for="confirmpassword"> Confirm Password: </label>
-            <input type="password" class="form-control" id="confirmpassword1" aria-describedby="confirmpasswordHelp" placeholder="Confirm password">
+            <label for="isbn"> ISBN: </label>
+            <input type="isbn" class="form-control" id="isbn1" aria-describedby="isbnHelp" placeholder="Enter the ISBN number for the book">
         </div>
-
-        <div class="form-group col-lg-4">
-            <label for="exampleFormControlSelect1"> Select Degree Type: </label>
-            <select class="form-control" id="degreetype">
-              <option>Undergraduate</option>
-              <option>Graduate</option>
+        
+        <div class = "form-group col-lg-4">
+            <label for="confirmisbn"> Confirm ISBN: </label>
+            <input type="confirmisbn" class="form-control" id="confirmisbn1" aria-describedby="confirmisbnHelp" placeholder="Confirm the ISBN number for the book">
+        </div>
+        
+		<div class="form-group col-lg-4">
+            <label for="conditiondropdown">Condition: </label>
+            <select class="form-control" id="conditiondropdown1">
+              <option> - </option>
+              <option>New - never used</option>
+              <option>Like new</option>
+              <option>Used</option>
+              <option>Used with written notes</option>
+              <option>Heavily used - some tears, rips, water marks, etc.</option>
+              <option>Poor - no cover, pages missing, etc.</option>
             </select>
           </div>
-
-        <div class="form-group col-lg-4">
-            <label for="exampleFormControlSelect1">Select Year of Graduation: </label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>2021</option>
-              <option>2022</option>
-              <option>2023</option>
-              <option>2024</option>
-            </select>
-          </div>
-
-          <div class="form-group col-lg-4">
-            <label for="selectschool">Select School: </label>
-            <select class="form-control" id="selectSchool">
-              <option>MCAS</option>
-              <option>CSOM</option>
-              <option>CSON</option>
-              <option>LSOE</option>
-              <option>WCAS</option>
-              <option>BCSSW</option>
-              <option>LAW</option>
-            </select>
-          </div>
- 
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Select subjects of interest</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>AADS</option>
-                <option>ARTH</option>
-                <option>BIOL</option>
-                <option>CHEM</option>
-                <option>CSCI</option>
-                <option>FREN</option>
-                <option>ISYS</option>
-                <option>MATH</option>
-                <option>PSYCH</option>
-                <option>THEO</option>
-              </select>
-            </div>
+        
+        <div class = "form-group col-lg-4">
+            <label for="price"> Price: </label>
+            <input type="price" class="form-control" id="price1" aria-describedby="priceHelp" placeholder="Enter the price you're selling the book for">
+        </div>
           <br>         
     <button type="submit" class="btn btn-primary mb-2">Submit</button>
     </form>
