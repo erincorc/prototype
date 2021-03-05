@@ -18,9 +18,10 @@
 <body>
 
     <!-- WORDMARK - ADD TO EVERY PAGE -->
+<<<<<<< HEAD
     <div class = 'topbar'>
       <div class = 'wordmark'>
-        <img src="./assets/wordmark.png" alt="BC Wordmark" style = "max-width: 100%; height: auto;">
+        <img src="./assets/wordmark.png" alt="BC Wordmark">
       </div>
       <div class = "cart" id = "my-listings">
         <img src="./assets/cart.png" alt="cart" id="cart-icon">
@@ -33,6 +34,11 @@
       </div>
     </div>
 
+=======
+    <div class = 'wordmark'>
+      <img src="wordmark.png" alt="BC Wordmark" style = "max-width: 100%; height: auto;">
+  </div>
+>>>>>>> 846719f2fd291301d41868357790df74f58412d8
 
         <!-- NAVIGATION BAR - ADD TO EVERY PAGE-->
         <div class = 'navigation' >
