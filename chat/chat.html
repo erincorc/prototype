@@ -53,32 +53,42 @@
         <a href="/prototype/index.html">Back to Main Page</a>
 
 
-        <div class="container">
+        <div class="maroonchatbox">
                 <img src="buyer.png" alt="Buyer" style="width:100%;">
                 <p>Hello. Hey! Is this book still available?</p>
                 <a href="/prototype/reports/reports.html">Report User</a>
                 <span class="time-right">9/2/20 5:21 pm</span>
         </div>
 
-        <div class="container darker">
+        <div class="goldchatbox">
                 <img src="seller.png" alt="Seller" class="right" style="width:100%;">
                 <p>Yes, it is. I'm asking $67</p>
                  <span class="time-left">9/2/20 5:30 pm</span>
         </div>
 
-        <div class="container">
+        <div class="maroonchatbox">
                 <img src="buyer.png" alt="Buyer" style="width:100%;">
                 <p>That's a bit steep, how about $50?</p>
                 <a href="/prototype/reports/reports.html">Report User</a>
                 <span class="time-right">9/2/20 6:00 pm</span>
         </div>
 
-        <div class="container darker">
+        <div class="goldchatbox">
                 <img src="buyer.png" alt="seller" class="right" style="width:100%;">
                 <p>Yeah, I can do that. I live at 2150, can you come by?</p>
                 <span class="time-left">9/2/20 6:12 pm</span>
         </div>
 
+        <!-- transaction checker -->
+        <div class="form-check">
+                <p>It has been more than 36 hours since last conversation, has the transaction been complete?</p>
+                <button type="submit" class="btn btn-primary mb-2">Yes</button>
+                <button type="submit" class="btn btn-primary mb-2">No</button>
+                <br>
+                <br>
+        <div>
+
+        <!-- Chat input box -->
         <div class="panel-footer">
             <div class="input-group">
                 <input id="btn-input" type="text" class="form-control input-sm chat_input" placeholder="Write your message here..." />
@@ -87,6 +97,29 @@
                 </span>
             </div>
         </div>
+
+        <!-- posttransaction checker -->
+        <div class="post-check">
+                <br>
+                <p>The transaction been complete. Please take a moment to rate the experience.</p>
+                <input type="checkbox" class="post-check-input" id="exampleCheck1">
+                <label class="post-check-label" for="exampleCheck1"> 5⭐</label>
+                <br>
+                <input type="checkbox" class="post-check-input" id="exampleCheck1">
+                <label class="post-check-label" for="exampleCheck1"> 4⭐</label>
+                <br>
+                <input type="checkbox" class="post-check-input" id="exampleCheck1">
+                <label class="post-check-label" for="exampleCheck1"> 3⭐</label>
+                <br>
+                <input type="checkbox" class="post-check-input" id="exampleCheck1">
+                <label class="post-check-label" for="exampleCheck1"> 2⭐</label>
+                <br>
+                <input type="checkbox" class="post-check-input" id="exampleCheck1">
+                <label class="post-check-label" for="exampleCheck1"> 1⭐</label>
+                <br>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+          <div>
         <!-- Chat -->
 
     <br>
